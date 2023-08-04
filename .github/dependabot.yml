@@ -16,3 +16,14 @@ updates:
       labels:
           - 'Updated by dependabot'
       versioning-strategy: increase
+    - package-ecosystem: 'npm'
+      directory: '/04'
+      schedule:
+          interval: 'daily'
+      allow:
+          - dependency-type: 'production'
+      ignore:
+          - dependency-name: 'axios'
+      labels:
+          - 'Updated by dependabot'
+      versioning-strategy: increase
